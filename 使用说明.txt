@@ -1,0 +1,9 @@
+这不是能直接放进 addons 的 vpk。
+
+用电脑浏览器打开本仓库，点 Code → Download ZIP，解压。
+双击 make-penholes.bat。
+生成的 penholes.vpk 大小必须是 13118 字节。
+再复制到：
+Left 4 Dead 2\left4dead2\addons\
+不要放进 workshop 文件夹。
+如果又出现 Couldn't parse corrupted VPK，把这个 vpk 删掉，游戏就能进。
