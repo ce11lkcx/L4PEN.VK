@@ -1,5 +1,6 @@
 @echo off
 cd /d "%~dp0"
+copy /b parts\part1.b64+parts\part2.b64+parts\part3.b64+parts\part4.b64+parts\part5.b64+parts\part6.b64 penholes.vpk.b64 >nul
 certutil -f -decode "penholes.vpk.b64" "penholes.vpk"
 if errorlevel 1 (
   echo decode failed
