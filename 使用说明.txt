@@ -1,11 +1,17 @@
 请直接下载发布附件。
-https://github.com/ce11lkcx/L4PEN.VK/releases/tag/v9
+https://github.com/ce11lkcx/L4PEN.VK/releases/tag/sm1
 
-下载 penholes.vpk，大小必须是 17755 字节。
-先删掉 addons 里旧的 penholes.vpk，再复制到：
-Left 4 Dead 2\left4dead2\addons\
-不要放进 workshop 文件夹。
+下载 penholes.sp，放到：
+Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\
 
-本次：
-- 薄板阈值从 2 降到 0.6，出射孔加一点随机偏移，避免叠孔。
-- 模型动态贴孔在这版引擎的 VScript 里没有接口。
+编译：
+双击 scripting 文件夹里的 compile.exe，
+或在命令行进入该文件夹运行：spcomp penholes.sp
+
+编译出的 penholes.smx 在 scripting\compiled\ 里。
+把它复制到：
+Left 4 Dead 2\left4dead2\addons\sourcemod\plugins\
+
+重启游戏，或在控制台输入：sm plugins load penholes
+
+先删掉 addons 里的旧 penholes.vpk，这个插件替代它。
