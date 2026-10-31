@@ -1,17 +1,14 @@
 请直接下载发布附件。
-https://github.com/ce11lkcx/L4PEN.VK/releases/tag/sm1
+https://github.com/ce11lkcx/L4PEN.VK/releases/tag/sm2
 
-下载 penholes.sp，放到：
+下载新的 penholes.sp，放到：
 Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\
 
-编译：
-双击 scripting 文件夹里的 compile.exe，
-或在命令行进入该文件夹运行：spcomp penholes.sp
+编译：双击 compile.exe 或运行 spcomp penholes.sp
 
-编译出的 penholes.smx 在 scripting\compiled\ 里。
-把它复制到：
-Left 4 Dead 2\left4dead2\addons\sourcemod\plugins\
+把生成的 penholes.smx 复制到：
+addons\sourcemod\plugins\
 
-重启游戏，或在控制台输入：sm plugins load penholes
+重启游戏或控制台 sm plugins load penholes
 
-先删掉 addons 里的旧 penholes.vpk，这个插件替代它。
+先删掉旧的 penholes.vpk。
