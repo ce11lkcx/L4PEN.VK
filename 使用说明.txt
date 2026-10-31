@@ -1,13 +1,12 @@
 请直接下载发布附件。
-https://github.com/ce11lkcx/L4PEN.VK/releases/tag/v5
+https://github.com/ce11lkcx/L4PEN.VK/releases/tag/v6
 
-下载 penholes.vpk，大小必须是 16319 字节。
+下载 penholes.vpk，大小必须是 262435 字节。
 先删掉 addons 里旧的 penholes.vpk，再复制到：
 Left 4 Dead 2\left4dead2\addons\
 不要放进 workshop 文件夹。
 
 本次：
-- 出射孔改用游戏自己的弹孔，和入射孔同一套贴图。
-- 去掉了光束和光点，那些会变成黑白方框。
-- 气流改成沿出射方向排几个灰尘粒子。
-- 物件和斜角对穿也能找到出射面。
+- 出射孔用你提供的弹孔包，按材质分别贴，不会再出紫黑格子。
+- 出射检测只反向看很短的一段，不会再把地面当成出射面。
+- 气流用 laserbeam，细、淡、短，再加灰尘粒子。
