@@ -1,11 +1,12 @@
-本次改动：
-- 弹孔上限提到每秒 80 个，近点不再被合并掉。
-- 木头/金属/玻璃/混凝土分别用游戏自带的 shot 弹孔。
-- 穿墙后有一条很短很淡的气流，加一下出射点的灰尘，不是长激光。
+请直接下载发布附件，不要再用旧的分段解码。
+https://github.com/ce11lkcx/L4PEN.VK/releases/tag/v3
 
-用电脑浏览器打开本仓库，点 Code → Download ZIP，解压。
-先删掉 addons 里旧的 penholes.vpk，再双击 make-penholes.bat。
-生成的 penholes.vpk 大小必须是 14012 字节。
-复制到：
+下载 penholes.vpk，大小必须是 260645 字节。
+先删掉 addons 里旧的 penholes.vpk，再复制到：
 Left 4 Dead 2\left4dead2\addons\
 不要放进 workshop 文件夹。
+
+本次：
+- 用你提供的弹孔包，按材质分别贴：混凝土、木头、金属、玻璃、砖、石头、瓷砖、石膏、石膏板、泥土、橡胶（塑料也走这套）、电脑、沥青、布料、纸板。
+- 包里没有塑料文件夹，塑料按橡胶弹孔处理。
+- 穿墙后有很短很淡的气流，出射点有对应灰尘。
