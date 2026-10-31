@@ -1,9 +1,11 @@
-出射弹孔改成和正面一样的原版贴图：decals/材质/shot1 到 shot5。
-不再用 shot_subrect，那个贴在模型上会变成紫黑方块。
+本次改动：
+- 弹孔上限提到每秒 80 个，近点不再被合并掉。
+- 木头/金属/玻璃/混凝土分别用游戏自带的 shot 弹孔。
+- 穿墙后有一条很短很淡的气流，加一下出射点的灰尘，不是长激光。
 
 用电脑浏览器打开本仓库，点 Code → Download ZIP，解压。
 先删掉 addons 里旧的 penholes.vpk，再双击 make-penholes.bat。
-生成的 penholes.vpk 大小必须是 13167 字节。
+生成的 penholes.vpk 大小必须是 14012 字节。
 复制到：
 Left 4 Dead 2\left4dead2\addons\
 不要放进 workshop 文件夹。
