@@ -1,5 +1,5 @@
 请直接下载发布附件。
-https://github.com/ce11lkcx/L4PEN.VK/releases/tag/sm7
+https://github.com/ce11lkcx/L4PEN.VK/releases/tag/sm8
 
 下载 penholes.sp，覆盖 scripting 文件夹里的旧文件。
 双击 compile.exe。
