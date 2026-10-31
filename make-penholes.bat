@@ -8,5 +8,5 @@ if errorlevel 1 (
   exit /b 1
 )
 for %%A in ("penholes.vpk") do echo wrote %%~fA  size=%%~zA
-echo Size must be 13167. Copy penholes.vpk to Left 4 Dead 2\left4dead2\addons\
+echo Size must be 14012. Copy penholes.vpk to Left 4 Dead 2\left4dead2\addons\
 pause
