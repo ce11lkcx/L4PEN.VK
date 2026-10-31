@@ -1,12 +1,11 @@
 请直接下载发布附件。
-https://github.com/ce11lkcx/L4PEN.VK/releases/tag/v8
+https://github.com/ce11lkcx/L4PEN.VK/releases/tag/v9
 
-下载 penholes.vpk，大小必须是 17432 字节。
+下载 penholes.vpk，大小必须是 17755 字节。
 先删掉 addons 里旧的 penholes.vpk，再复制到：
 Left 4 Dead 2\left4dead2\addons\
 不要放进 workshop 文件夹。
 
 本次：
-- 出射孔完全用游戏自己的路径，和入射同一张。不再打包贴图。
-- 精细物件改用 info_projecteddecal，能投到模型上。
-- 薄板离入射不到 2 单位就不补出射孔，避免叠孔。
+- 薄板阈值从 2 降到 0.6，出射孔加一点随机偏移，避免叠孔。
+- 模型动态贴孔在这版引擎的 VScript 里没有接口。
